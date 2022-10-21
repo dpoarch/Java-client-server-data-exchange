@@ -20,10 +20,10 @@ Network error handling on both the client and the server
 
 1. How does the server handle multiple clients simultaneously
 ```
-Server handles clients by using a route method on ip addresses, ports and host. each broadcasted packets are assigned to a specific wildcard. 
+Server handles clients by using a route method on ip addresses, ports, and host.  Each broadcasted packet is assigned to a specific wildcard.
 ```
 
 2. Suitability of your choice of protocol for the task
 ```
-Used the method UDP for faster packet request
+Used the UDP method for faster packet request.
 ```
